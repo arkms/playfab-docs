@@ -45,13 +45,13 @@ In the PlayFab Game Manager:
 Subject:
 
 ```html
-어서 돌아오세요
+Come back
 ```
 
 Message:
 
 ```html
-<Profile.DisplayName>, 보고싶습니다. 다시돌아오시면 서프라이즈 선물을 받으실수있도록 준비했습니다. 다시한번 오셔서 들러보시겠습니까!
+<Profile.DisplayName>, I would like to see it. We have prepared a surprise gift for you when you come back. Would you like to come and visit us again?!
 ```
 
 The following example displays what it should look like.
