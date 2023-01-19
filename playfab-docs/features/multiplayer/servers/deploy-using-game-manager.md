@@ -98,6 +98,9 @@ gs.start();
 > [!Note]
 > In container mode, each game server runs on its own network namespace. This is the reason why every game server can listen to the same port. The container port is dynamically mapped to a unique port on the virtual machine. However, on process mode, all game servers run on the same network namespace. Having all game servers listen to the same port would create conflicts, so this is why you'll need to get the ServerListeningPort from the GSDK.
 
+> [!Note]
+> If you add a UDP and TCP with the same port, is only going to works with one.
+
 ### Setting port for process server types
 For process server type, you should use the GSDK to retrieve your port number. Don't include a port number as part of the build definition.
 
